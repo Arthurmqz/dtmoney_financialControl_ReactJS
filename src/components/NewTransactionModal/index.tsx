@@ -28,7 +28,8 @@ export function NewTransactionModal({ isOpen, onRequestClose}: NewTransactionMod
       type
     }
     api.post('/transactions', data)
-  }
+
+    }
   return (
     <Modal 
     isOpen={isOpen} 
