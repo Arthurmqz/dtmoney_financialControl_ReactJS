@@ -13,10 +13,18 @@ createServer({
       transactions: [
         {
         id:1,
-        title: 'Food',
-        type: 'deposit',
-        category: 'Grocery',
+        title: 'Grocery',
+        type: 'withdraw',
+        category: 'Home',
         amount: 50,
+        createAt: new Date('2022-02-12 09:00:00'),
+      },
+      {
+        id:2,
+        title: 'Website',
+        type: 'deposit',
+        category: 'Work',
+        amount: 750,
         createAt: new Date('2022-02-12 09:00:00'),
       }
     ],
